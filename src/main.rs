@@ -86,8 +86,6 @@ pub fn setup_instrumentation(
     // traging-opentelemetry should only use the tracer passed in OpenTelemetryLayer. However
     // this seems not to be the case.
     // I am beginning to suspect a bug in one of the OTEL libs here...
-    // Will leave as is, as this will probably need a version-step and rework with the move to
-    // a different OTEL exporter anyway.
     // let _ = global::set_tracer_provider(tracer_provider);
 
     let opentelemetry_layer = Some(OpenTelemetryLayer::new(tracer));

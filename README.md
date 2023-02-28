@@ -1,4 +1,4 @@
-This is a minimum example to reproduce a presumed bug in one of the opentelemetry crates.
+This is a minimum example to reproduce a presumed [bug](https://github.com/tokio-rs/tracing/issues/2493) in one of the opentelemetry crates.
 
 Can be tested against jaegertracing/all-in-one docker container:
 
